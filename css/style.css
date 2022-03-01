@@ -1,0 +1,71 @@
+:root
+{
+    --mainColor:#24353f;
+    --textColor:#17a2b8;
+}
+::placeholder
+{
+    color: rgba(248, 238, 232, 0.8);
+    font-size: 17px;
+    font-weight: 100;
+}
+body
+{
+    background-color: var(--mainColor);
+}
+h1
+{
+    color: var(--textColor);
+}
+.content , .navbar
+{
+    background-color: var(--mainColor);
+    box-shadow: 1px 1px 30px 2px black;
+}
+input
+{
+    font-size: 1.2rem;
+    background-color: var(--mainColor);
+    border: 1px solid rgba(248, 238, 232, 0.8);;
+}
+
+button
+{
+    background-color: var(--mainColor);
+    border: 1px solid var(--textColor);
+    color: var(--textColor);
+    font-size: 1.1rem;
+}
+button:hover{
+    background-color: var(--textColor);
+    color: white;
+}
+label
+{
+    font-size: 1.1rem;
+}
+a
+{
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.deco:hover
+{
+    text-decoration: underline;
+}
+
+.nav-link
+{
+    color: rgb(138, 137, 137);
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler {
+    color: rgba(255, 255, 255, 0.55);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+.navbar-toggler:hover
+{
+    background-color: var(--mainColor);
+}
