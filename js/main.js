@@ -38,7 +38,7 @@ function logIn() {
         }
         if (check) {
             sessionStorage.setItem("userName", userName);
-            window.open("home.html", "_self");
+            window.open("./html/home.html", "_self");
         }
         else
             incorrectLabel.classList.replace("d-none", "d-block");
